@@ -61,7 +61,7 @@ header img {
     height: 50px;
 }
 
-.desktop {
+.desktop, #paragraphe {
     display: none;
 }
 
@@ -143,6 +143,53 @@ button {
     top: -55px;
 }
 
+/* Menu Burger */
+.deroulant {
+    display: none;
+    z-index: 99;
+    position: absolute;
+    display: block;
+    left: 30px;
+    width: 600px;
+    text-align: center;
+    background-color: #e8eaee;
+    border-radius: 20px;
+}
+
+.deroulant ul {
+    padding: 0;
+}
+
+.deroulant li {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.deroulant a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.x {
+    width: 5px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    transform: rotate(50deg);
+}
+
+.y {
+    width: 5px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    transform: rotate(-50deg);
+}
+
+.croix {
+    text-align: end;
+}
 
 /* DESKTOP */
 @media (min-width: 1024px) {
