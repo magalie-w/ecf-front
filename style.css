@@ -143,6 +143,11 @@ button {
     top: -55px;
 }
 
+/* Vidéo youtube */
+#video {
+    display: none;
+}
+
 /* Menu Burger */
 .deroulant {
     display: none;
@@ -156,9 +161,9 @@ button {
     border-radius: 20px;
 }
 
-.deroulant ul {
+/* .deroulant ul {
     padding: 0;
-}
+} */
 
 .deroulant li {
     list-style: none;
@@ -290,10 +295,5 @@ button {
         display: none;
         color: green;
         text-align: center;
-    }
-
-    /* Vidéo youtube */
-    #video {
-        display: none;
     }
 }
