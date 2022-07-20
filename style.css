@@ -21,10 +21,6 @@
     background-color: #6415ff;
 }
 
-.bgNone {
-    background-color: transparent;
-}
-
 .bolder {
     font-weight: bolder;
 }
@@ -64,19 +60,28 @@ header img {
     text-align: center;
 }
 
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
 .center {
     display: inherit;
 }
 
-button {
-    border: none;
-    border-radius: 5px;
-    font-weight: 700;
-    font-size: 17px;
+.center img {
+    width: 45px;
 }
 
 .commander {
     padding: 15px 25px;
+    font-weight: 700;
+}
+
+.meet {
+    background-color: transparent;
+    font-weight: 700;
 }
 
 .first-photo {
