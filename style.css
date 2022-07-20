@@ -156,6 +156,7 @@ button {
     }
 
     .desktop {
+        font-weight: 500;
         display: flex;
         width: 650px;
         justify-content: space-between;
@@ -169,7 +170,7 @@ button {
     .lien {
         display: flex;
         justify-content: space-between;
-        width: 300px;
+        width: 330px;
     }
 
     .compte {
@@ -215,5 +216,24 @@ button {
 
     .second-bloc {
         margin-top: 150px;
+    }
+
+    /* HOVER */
+    h1:hover {
+        color:#6415ff;
+    }
+
+    .lien a:hover {
+        border-bottom: 3px #6415ff solid;
+        color: #6415ff;
+        bottom: 0;
+    }
+
+    .center button:hover {
+        color: #6415ff;
+    }
+    /* LIEN QUI BOUGE LORS DU HOVER */
+    .lien a, .compte a {
+        border-bottom: 3px transparent solid;
     }
 }
