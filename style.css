@@ -75,6 +75,7 @@ h2 span {
 
 .first-bloc, .second-bloc {
     text-align: center;
+    display: block;
 }
 
 .first-bloc, .second-bloc {
@@ -235,5 +236,17 @@ button {
     /* LIEN QUI BOUGE LORS DU HOVER */
     .lien a, .compte a {
         border-bottom: 3px transparent solid;
+    }
+
+    /* Paragraphe qui s'affiche pour la commande */
+    #paragraphe {
+        display: none;
+        color: green;
+        text-align: center;
+    }
+
+    /* Vidéo youtube */
+    #video {
+        display: none;
     }
 }

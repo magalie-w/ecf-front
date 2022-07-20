@@ -42,8 +42,14 @@
     <main class="container">
 
         <!-- PREMIER BLOC -->
+        <div id="paragraphe">
+            Votre commande a été prise en compte
+        </div>
+
         <div class="first-bloc">
+            
             <div class="bloc-text">
+
                 <h2>
                     Délicieux & abordable <br>
                     <span class="bgViolet white italic bolder">Repas chez vous.</span>
@@ -56,13 +62,13 @@
 
                 <div class="flex between">
                     <div>
-                        <button class="commander white bgViolet">Commander maintenant</button>
+                        <button id="buttonCommande" class="commander white bgViolet">Commander maintenant</button>
                     </div>
 
                     <div class="center">
                         <img src="img/play-circle.svg" alt="SVG renconter les chefs" />
 
-                        <button class="meet">Renconter les chefs</button>
+                        <button id="buttonMeet" class="meet">Renconter les chefs</button>
                     </div>
                 </div>
             </div>
@@ -71,6 +77,15 @@
                 <img class="first-photo" src="img/image-1.jpeg" alt="Image de plat" />
 
                 <img class="first-dot" src="img/dot-pattern.svg" alt="point image" />
+            </div>
+            
+            <div id="video">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/_GuOjXYl5ew" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
             </div>
         </div>
 
@@ -98,5 +113,6 @@
         </div>
     </main>
     
+    <script src="script.js"></script>
 </body>
 </html>
