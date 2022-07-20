@@ -12,13 +12,16 @@
     color: #e8eaee;
 }
 
-.italic {
-    font-style: italic;
-    padding: 5px;
+.violet {
+    color: #6415ff;
 }
 
 .bgViolet {
     background-color: #6415ff;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .bolder {
@@ -27,6 +30,7 @@
 
 .text {
     font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }
 
 /* code */
@@ -35,7 +39,7 @@
     margin: auto;
     display: block;
     justify-content: center;
-    width: 500px;
+    width: 600px;
 }
 
 .flex {
@@ -47,6 +51,11 @@
     justify-content: space-between;
 }
 
+header {
+    width: 600px;
+    margin: auto;
+}
+
 header img {
     width: 50px;
     height: 50px;
@@ -56,8 +65,21 @@ header img {
     display: none;
 }
 
+h2 {
+    font-size: 30px;
+}
+
+h2 span {
+    padding: 5px;
+}
+
 .first-bloc, .second-bloc {
     text-align: center;
+}
+
+.first-bloc, .second-bloc {
+    width: 500px;
+    margin: auto;
 }
 
 button {
@@ -75,7 +97,7 @@ button {
 }
 
 .commander {
-    padding: 15px 25px;
+    padding: 15px 30px;
     font-weight: 700;
 }
 
@@ -84,17 +106,40 @@ button {
     font-weight: 700;
 }
 
+.year {
+    font-weight: 700;
+    padding: 15px 30px;   
+}
+
+.bloc-img {
+    margin-top:20px;
+}
+
+.first-dot {
+    width: 150px;
+    position: absolute;
+    left: 510px;
+    top: 640px;
+}
+
 .first-photo {
-    object-fit: contain;
-    width: 500px;
+    object-fit: cover;
+    width: 600px;
     height: 350px;
     border-radius: 50px;
 }
 
 .second-photo {
-    width: 390px;
+    width: 500px;
     border-radius: 50px;
     margin-top: 100px;
+    position: relative;
+}
+
+.second-dot {
+    width: 100px;
+    position: relative;
+    top: -55px;
 }
 
 
