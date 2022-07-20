@@ -124,7 +124,7 @@ button {
 
 .first-photo {
     object-fit: cover;
-    width: 600px;
+    width: 550px;
     height: 350px;
     border-radius: 50px;
 }
@@ -145,7 +145,75 @@ button {
 
 /* DESKTOP */
 @media (min-width: 1024px) {
-    /* header {
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    header {
+        width: 1200px;
+        margin: auto;
+    }
+
+    .desktop {
+        display: flex;
+        width: 650px;
         justify-content: space-between;
-    } */
+        align-items: center;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .lien {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+    }
+
+    .compte {
+        display: flex;
+        align-items: center;
+        width: 250px;
+        justify-content: space-around;
+    }
+
+    .sign-up {
+        padding: 10px 25px;
+        border-radius: 5px;
+    }
+
+    .container {
+        width: 1200px;
+        margin: auto;
+    }
+
+    .first-bloc, .second-bloc {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .bloc-img {
+        width: 550px;
+    }
+
+    .bloc-text {
+        width: 500px;
+        text-align: start;
+    }
+
+    .first-dot {
+        top: 380px;
+        left: 1420px;
+    }
+
+    .bloc-img, .second-photo {
+        margin: 0;
+    }
+
+    .second-bloc {
+        margin-top: 150px;
+    }
 }
